@@ -1,0 +1,72 @@
+<html>
+
+<head>
+  <title>Registrations Page</title>
+  <style>
+    ul {
+      list-style-type: none;
+
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+
+    div {
+      position: absolute;
+      top: 2%;
+      right: 1%;
+    }
+  </style>
+</head>
+
+<body>
+  <a href="https://www.iiit.ac.in/"><img alt="iiith logo" src="https://www.iiit.ac.in/img/iiit-new.png" width="140"
+      height="70"></a>
+  <div style="font-size: 25px;">
+    <a href="https://serc.iiit.ac.in/rdip"><b>RDIP</b></a>
+  </div>
+  <ul>
+    <li><a href="homepage.html">Home</a></li>
+    <li><a href="registration.html">Registration Form</a></li>
+  </ul>
+  <br>
+  <pre>
+    <form action="/details.html" method="get">
+
+<label for="name"><b style="font-family:serif;">First Name:</b>       <input type="text" id="name" name="name"><br>
+<label for="email"><b style="font-family:serif;">E-mail :</b></label>           <input type="text" id="email" name="email"><br>
+<label for="PHNO."><b style="font-family:serif;">Phone No.:</b></label>        <input type="number" id="PHNO." name="PHNO.">
+
+
+<b style="font-family:serif;">Gender:</b>          <input type="radio" id="male" name="gender" value="male"><label for="male"><b style="font-family:timees,serif;">Male</b></label>  <input type="radio" id="female" name="gender" value="female"><label for="female"><b style="font-family:timees,serif;">Female</b></label>  <input type="radio" id="other" name="gender" value="other"><label for="other"><b style="font-family:timees,serif;">Other</b></label>
+
+<b style="font-family:serif;">Reason for RDIP:</b> <input type="checkbox" id="HTML" name="reason" value="HTML"><label for="HTML"><b style="font-family:timees,serif;">HTML</b></label>  <input type="checkbox" id="CSS" name="reason" value="CSS"><label for="CSS"><b style="font-family:timees,serif;">CSS</b></label>  <input type="checkbox" id="JavaScript" name="reason" value="JavaScript"><label for="JavaScript"><b style="font-family:timees,serif;">JavaScript</b></label>
+
+<label for="College"><b style="font-family:serif;">College:</b>           <input type="text" id="College" name="College"><br>
+
+<input type="checkbox" id="dec1" name="dec1" value="declaration"><label for="dec1"> <b style="font-family:serif;">I declare that the above details given by me are true.</b></label><br>
+
+<button>submit</button>           <input type="reset" value="Reset">
+      
+    </form>
+  </pre>
+
+</body>
+
+</html>
